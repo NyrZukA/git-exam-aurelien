@@ -121,3 +121,8 @@ Vous devez :
 
 1. Revenir à l'état précédent avec `git reset` ou `git revert`.
 2. Expliquer la différence entre les deux commandes.
+    On s'est tromper en local, le code n'a pas été vu par tout le monde
+    git reset (on efface les preuves ni vu ni connu).
+
+    on s'est trompé mais on a déjà poussé ton code donc tout le monde l'as vu.
+    git revert (on assume, on crée un commit qui annule, et l'historique reste cohérent pour tout le monde).
